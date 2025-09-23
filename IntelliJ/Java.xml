@@ -1,5 +1,38 @@
-<code_scheme name="Java Codestyle" version="173">
+<code_scheme name="Project" version="173">
   <JavaCodeStyleSettings>
+    <option name="IMPORT_LAYOUT_TABLE">
+      <value>
+        <package name="" withSubpackages="true" static="false" module="true" />
+        <package name="android" withSubpackages="true" static="true" />
+        <package name="androidx" withSubpackages="true" static="true" />
+        <package name="com" withSubpackages="true" static="true" />
+        <package name="junit" withSubpackages="true" static="true" />
+        <package name="net" withSubpackages="true" static="true" />
+        <package name="org" withSubpackages="true" static="true" />
+        <package name="java" withSubpackages="true" static="true" />
+        <package name="javax" withSubpackages="true" static="true" />
+        <package name="" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="android" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="androidx" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="com" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="junit" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="net" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="org" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="java" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="" withSubpackages="true" static="false" />
+        <emptyLine />
+      </value>
+    </option>
     <option name="RECORD_COMPONENTS_WRAP" value="5" />
     <option name="NEW_LINE_AFTER_LPAREN_IN_RECORD_HEADER" value="true" />
     <option name="RPAREN_ON_NEW_LINE_IN_RECORD_HEADER" value="true" />
@@ -8,6 +41,9 @@
     <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
     <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
   </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+  </JetCodeStyleSettings>
   <arrangement>
     <tokens>
       <token id="visibility" name="visibility">
@@ -305,6 +341,7 @@
     <option name="SPACE_WITHIN_CATCH_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_SWITCH_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_SYNCHRONIZED_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_BRACES" value="true" />
     <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
     <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
@@ -586,5 +623,8 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </codeStyleSettings>
 </code_scheme>
